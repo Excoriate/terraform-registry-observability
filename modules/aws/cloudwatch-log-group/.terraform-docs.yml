@@ -16,12 +16,12 @@ content: |-
     Examples of this module's usage are available in the [examples](./examples) folder.
 
     ```hcl
-    {{ include "../../examples/cloudwatch-log-group/basic/main.tf" }}
+    {{ include "../../../examples/aws/cloudwatch-log-group/basic/main.tf" }}
     ```
 
     An example of passing a more complex set of functions to this role.
     ```hcl
-    {{ include "../../examples/cloudwatch-log-group/config/fixtures.tfvars" }}
+    {{ include "../../../examples/aws/cloudwatch-log-group/basic/config/fixtures.tfvars" }}
     ```
     ---
 

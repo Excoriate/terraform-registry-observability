@@ -1,8 +1,8 @@
 <h1 align="center">
   <img alt="logo" src="https://forum.huawei.com/enterprise/en/data/attachment/forum/202204/21/120858nak5g1epkzwq5gcs.png" width="224px"/><br/>
-  Terraform AWS ☁️ Networking 🌎
+  Terraform 👀 Observability 🔭
 </h1>
-<p align="center">An easy to understand, opinionated terraform <b>composable</b> set of modules for managing Networking and Traffic in <b> for AWS ☁️</b>.<br/><br/>
+<p align="center">An easy to understand, opinionated terraform <b>composable</b> set of modules for managing monitoring, metrics, and observability in <b> any cloud or provider️</b>.<br/><br/>
 
 ---
 
@@ -43,9 +43,9 @@ The documentation is **automatically generated** by [terraform-docs](https://ter
 
 ### Capabilities
 
-| Module    | Status   | Description                                   |
-|-----------|----------|-----------------------------------------------|
-| `aws-vpc` | Stable ✅ | Create a full managed Virtual Private Network |
+| Module                     | Status   | Description                        |
+|----------------------------|----------|------------------------------------|
+| `aws-cloudwatch-log-group` | Stable ✅ | Create an AWS Cloudwatch log-group |
 
 ### Getting Started
 
