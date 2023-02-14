@@ -18,6 +18,7 @@ defaults:
 jobs:
 
     generate-version:
+        permissions: write-all
         runs-on: ubuntu-latest
         steps:
             - name: Checkout Repository
